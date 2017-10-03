@@ -29,15 +29,17 @@
             <artifactId>artifact1</artifactId>
             <version>1.0-SNAPSHOT</version>
         </dependency>
+        <dependency>
+            <groupId>com.github.destr0ya</groupId>
+            <artifactId>ct417-1A</artifactId>
+            <version>-SNAPSHOT</version>
+        </dependency>
     </dependencies>
 
     <repositories>
         <repository>
-            <id>dropbox-mvn-repo</id>
-            <name>My Dropbox Repository</name>
-            <url>
-                https://www.dropbox.com/sh/8w0jviuwpuehw5d/AABYhYhL42_-FHm4YxtWBRfSa?dl=0
-            </url>
+            <id>jitpack.io</id>
+            <url>https://jitpack.io</url>
         </repository>
     </repositories>
 
