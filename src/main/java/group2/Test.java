@@ -24,7 +24,6 @@ public class Test {
             dt.year().setCopy(1996);
             student.setDOB(dt);
             student.setId(143582 + i);
-            student.setUsername("jsmith" + i);
             students.add(student);
         }
 
